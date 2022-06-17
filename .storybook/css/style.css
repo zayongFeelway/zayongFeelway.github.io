@@ -1,0 +1,768 @@
+/* CSS Document */
+* {font-family: "Nunito Sans", "Apple SD Gothic Neo", 나눔고딕, "맑은 고딕", "Malgun Gothic", 돋움, dotum, Helvetica, Arial, Verdana, Tahoma, sans-serif;}
+
+/*필웨이모바일*/
+body {
+    BACKGROUND-COLOR: #ffffff;
+    margin: 0 5px;
+    padding: 0;
+    border: 0;
+}
+
+body,
+tr,
+td,
+ul,
+ol,
+li,
+dl,
+dd,
+dt,
+input,
+textarea {
+    font-size: 15px;
+    -webkit-text-size-adjust: none;
+}
+
+p {
+    margin: 0;
+    padding: 0
+}
+
+img {
+    BORDER-BOTTOM: 0;
+    BORDER-LEFT: 0;
+    BORDER-TOP: 0;
+    BORDER-RIGHT: 0
+}
+
+fieldset {
+    BORDER-BOTTOM: 0;
+    BORDER-LEFT: 0;
+    BORDER-TOP: 0;
+    BORDER-RIGHT: 0
+}
+
+dl {
+    list-style-type: none
+}
+
+ul {
+    list-style-type: none
+}
+
+ol {
+    list-style-type: none
+}
+
+li {
+    list-style-type: none
+}
+
+
+ul {
+    padding: 0;
+    margin: 0;
+
+}
+
+ol {
+    padding: 0;
+    margin: 0;
+
+}
+
+li {
+    padding: 0;
+    margin: 0;
+
+}
+
+dl {
+    padding: 0;
+    margin: 0;
+
+}
+
+dt {
+    padding: 0;
+    margin: 0;
+
+}
+
+dd {
+    padding: 0;
+    margin: 0;
+
+}
+
+h1 {
+    padding: 0;
+    margin: 0 !important;
+
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+input {
+    padding: 0;
+    margin: 0
+}
+
+select {
+    padding: 0;
+    margin: 0
+}
+
+textarea {
+    padding: 0;
+    margin: 0
+}
+
+a:link {
+    color: #333333;
+    text-decoration: none
+}
+
+a:visited {
+    color: #333333;
+    text-decoration: none
+}
+
+a:active {
+    color: #333333;
+    text-decoration: none
+}
+
+a:hover {
+    color: #16757a;
+    text-decoration: none
+}
+
+.pp {
+    COLOR: #BE3F6C;
+}
+
+.pp A:link {
+    COLOR: #BE3F6C;
+    TEXT-DECORATION: none
+}
+
+.pp a:visited {
+    TEXT-DECORATION: none;
+    color: #BE3F6C;
+}
+
+.pp A:hover {
+    COLOR: #BE3F6C;
+    TEXT-DECORATION: underline
+}
+
+.mt1 {
+    font-size: 14px;
+    COLOR: #16757a;
+}
+
+.mt1 A:link {
+    COLOR: #16757a;
+    TEXT-DECORATION: none
+}
+
+.mt1 a:visited {
+    color: #16757a;
+    TEXT-DECORATION: none;
+}
+
+.mt1 A:hover {
+    COLOR: #16757a;
+    TEXT-DECORATION: underline
+}
+
+.gt1 {
+    COLOR: #555555;
+    line-height: 20px;
+}
+
+.gt1 A:link {
+    COLOR: #555555;
+    TEXT-DECORATION: none
+}
+
+.gt1 a:visited {
+    color: #555555;
+    TEXT-DECORATION: none;
+}
+
+.gt1 A:hover {
+    COLOR: #555555;
+    TEXT-DECORATION: underline
+}
+
+.gt2 {
+    COLOR: #555555;
+    font-size: 12px;
+}
+
+.gt3 {
+    COLOR: #555555;
+    font-size: 14px;
+    ;
+}
+
+.gt4 {
+    COLOR: BLUE;
+    font-size: 16px;
+}
+
+.gt5 {
+    COLOR: #16757a;
+    font-size: 12px;
+}
+
+.brn {
+    font-size: 16px;
+}
+
+.brn A:link {
+    TEXT-DECORATION: none
+}
+
+.brn a:visited {
+    TEXT-DECORATION: none;
+}
+
+.brn A:hover {
+    TEXT-DECORATION: underline
+}
+
+.brnk {
+    font-size: 14px;
+    COLOR: #999999;
+}
+
+.mail1 {
+    FONT-SIZE: 15px;
+    COLOR: #656565;
+    text-decoration: none;
+}
+
+.mail1 A:link {
+    COLOR: blue;
+    TEXT-DECORATION: none
+}
+
+.mail1 a:visited {
+    color: blue;
+    TEXT-DECORATION: none;
+}
+
+.mail1 a:hover {
+    color: blue;
+    TEXT-DECORATION: none;
+}
+
+
+.link2 {
+    FONT-SIZE: 12px;
+    COLOR: #333333;
+}
+
+.link2 A:link {
+    COLOR: #0000CC;
+    TEXT-DECORATION: none
+}
+
+.link2 a:visited {
+    TEXT-DECORATION: none;
+    color: #0000CC;
+    font-size: 12px
+}
+
+.link2 A:hover {
+    COLOR: #0000CC;
+    TEXT-DECORATION: underline
+}
+
+/*모바일 필웨이 탑부분-로그인*/
+
+#wrapper {
+    MIN-WIDTH: 100%;
+    text-align: left;
+    width: auto
+}
+
+#wrapper .login {
+    WIDTH: 56px;
+    BACKGROUND: url(//icon.feelway.com/feel_m_image/login.gif) no-repeat 0 8px;
+    ;
+    HEIGHT: 35px;
+    float: right
+}
+
+#wrapper .login a {
+    width: 56px;
+    height: 35px;
+    margin: 0;
+    float: right
+}
+
+#wrapper .logout {
+    WIDTH: 56px;
+    BACKGROUND: url(//icon.feelway.com/feel_m_image/logout.gif) no-repeat 0 8px;
+    ;
+    HEIGHT: 35px;
+    float: right
+}
+
+#wrapper .logout a {
+    width: 56px;
+    height: 35px;
+    margin: 0;
+    float: right
+}
+
+#head_wrap {
+    height: 35px
+}
+
+#head_wrap h1 {
+    WIDTH: 248px;
+    BACKGROUND: url(//icon.feelway.com/feel_m_image/top_logo_menu4.gif) no-repeat 0 9px;
+    ;
+    HEIGHT: 35px
+}
+
+#head_wrap h2 {
+    WIDTH: 248px;
+    BACKGROUND: url(//icon.feelway.com/feel_m_image/top_logo_menu3.gif) no-repeat 0 9px;
+    ;
+    HEIGHT: 35px
+}
+
+#head_wrap A {
+    TEXT-INDENT: -3000em;
+    HEIGHT: 35px;
+    display: inline;
+    float: left;
+    overflow: hidden
+}
+
+#head_wrap A.feelway {
+    width: 85px;
+    margin: 0
+}
+
+#head_wrap A.search {
+    width: 50px;
+    margin: 0
+}
+
+#head_wrap A.kin {
+    width: 53px;
+    margin: 0
+}
+
+#head_wrap A.interest {
+    width: 60px;
+    margin: 0
+}
+
+/*div.login {top:8px; right:4px; width:56px; height:21px; float:right; position:absolute}*/
+
+
+
+
+/*모바일 필웨이 검색부분*/
+
+.search_bar {
+    position: relative;
+    width: auto;
+    height: 22px;
+    border: 5px solid #0abfc9;
+}
+
+.search_form {
+    width: auto;
+    overflow: hidden;
+    border: 0px #ffffff solid;
+    background: #ffffff;
+    color: #000000;
+    font-size: 14px;
+    padding: 5px 0 0 4px;
+    outline: none;
+}
+
+.search_radio {
+    position: relative;
+    top: 3px;
+    left: 5px;
+    width: auto;
+    font-size: 11px;
+    color: #16757a
+}
+
+.search_input {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    width: 90%
+}
+
+.search_button {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 43px
+}
+
+
+
+ul.product {
+    width: 100%
+}
+
+ul.product li {
+    width: 80px;
+    height: 80px;
+    background: #ffffff;
+    float: left;
+    margin-top: 20px;
+    margin-left: 18px
+}
+
+.title {
+    font-size: 14px;
+    color: #16757a;
+    height: 22px;
+    line-height: 22px
+}
+
+.time {
+    font-size: 14px;
+    color: #16757a;
+    height: 18px;
+    line-height: 18px
+}
+
+.point {
+    color: #cc3300
+}
+
+
+.title2 {
+    font-size: 14px;
+    color: #000000;
+    height: 22px;
+    line-height: 22px
+}
+
+.inter {
+    font-size: 14px;
+    color: #a43c62;
+    height: 18px;
+    line-height: 18px
+}
+
+.inter a {
+    color: #a43c62;
+}
+
+.inter a:hover {
+    color: #a43c62;
+}
+
+.price {
+    font-size: 14px;
+    color: #000000;
+    height: 22px;
+    line-height: 22px;
+    font-weight: bold
+}
+
+.bottom_line {
+    font-size: 12px;
+    color: #555555;
+    height: 15px;
+    line-height: 15px
+}
+
+
+.tit {
+    color: #057479
+}
+
+.tit2 {
+    color: #ff0000;
+    font-weight: bold
+}
+
+/*.paging {color:#656565; padding:2px 1px 0 2px;}
+.paging a:hover {color:#000000; padding:2px 1px 0 2px; letter-spacing:-1px;}*/
+
+
+.write_tit {
+    position: relative;
+    width: auto;
+    height: 25px;
+    border: 2px solid #0abfc9
+}
+
+.write_tit2 {
+    position: relative;
+    width: auto;
+    height: 100%;
+    border: 2px solid #0abfc9
+}
+
+
+
+.paging {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 17px;
+    color: #16757a;
+    padding: 5px 7px 0 7px;
+    height: 30px;
+}
+
+.paging a {
+    padding: 5px 7px 0 7px;
+    text-decoration: none;
+    color: #000;
+}
+
+.paging a:hover {
+    text-decoration: underline;
+    color: #000;
+    font-weight: bold;
+}
+
+.paging .select {
+    text-decoration: none;
+    color: #089aa2;
+    font-weight: bold;
+}
+
+
+.form {
+    border: 5px #0bbfc9 solid;
+    background: #ffffff;
+    height: 22px;
+    font-size: 14px;
+    color: #16757a;
+    width: 100%
+}
+
+.login_form {
+    border: 2px #0bbfc9 solid;
+    background: #ffffff;
+    height: 28px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold
+}
+
+.sform {
+    background: #ffffff;
+    height: 29px;
+    font-size: 14px;
+    padding: 5px 0 0 4px;
+    color: #000000
+}
+
+/*모바일 필웨이 탑부분-로그인 추가 - 2014-02-12 */
+
+.login_new {
+    FONT-SIZE: 15px;
+    COLOR: #b92e62;
+}
+
+.login_new A:link {
+    COLOR: #b92e62;
+    TEXT-DECORATION: none
+}
+
+.login_new a:visited {
+    COLOR: #b92e62;
+    TEXT-DECORATION: none
+}
+
+.login_new A:hover {
+    COLOR: #b92e62;
+    TEXT-DECORATION: none
+}
+
+.cate1 {
+    FONT-SIZE: 15px;
+    font-weight: bold;
+    COLOR: #ffffff;
+}
+
+.cate1 A:link {
+    font-weight: bold;
+    COLOR: #ffffff;
+    TEXT-DECORATION: none
+}
+
+.cate1 a:visited {
+    font-weight: bold;
+    COLOR: #ffffff;
+    TEXT-DECORATION: none
+}
+
+.cate1 A:hover {
+    font-weight: bold;
+    COLOR: #ffffff;
+    TEXT-DECORATION: none
+}
+
+.cate2 {
+    FONT-SIZE: 15px;
+    COLOR: #333333;
+}
+
+.cate2 A:link {
+    COLOR: #333333;
+    TEXT-DECORATION: none
+}
+
+.cate2 a:visited {
+    COLOR: #333333;
+    TEXT-DECORATION: none
+}
+
+.cate2 A:hover {
+    COLOR: #333333;
+    TEXT-DECORATION: none
+}
+
+
+
+/*필웨이 상품페이지*/
+
+#cList {
+    height: 100%;
+    padding: 20px 0 5px 0
+}
+
+#cList li {
+    text-align: center;
+    width: 154px;
+    display: block;
+    margin-bottom: 20px;
+    float: left
+}
+
+#cListVP a {
+    position: relative;
+    margin: 0 auto;
+    width: 82px;
+    display: block;
+    padding-top: 5px
+}
+
+#cListVP span {
+    display: block;
+    white-space: nowrap;
+    color: #313131;
+    font-size: 14px;
+    overflow: hidden;
+    font-weight: bold;
+    padding-top: 5px
+}
+
+#cListVP .brd {
+    width: 80px;
+    height: 80px
+}
+
+.c_tit {
+    line-height: 20px;
+    width: 100%;
+    text-overflow: ellipsis;
+    display: block;
+    white-space: nowrap;
+    color: #e55b1e;
+    font-size: 16px;
+    overflow: hidden;
+    font-weight: bold;
+    -o-text-overflow: ellipsis
+}
+
+.s_info {
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0
+}
+
+.s_info_tit {
+    font-size: 14px;
+    color: #a43c62;
+
+}
+
+.clr {
+    clear: both
+}
+
+
+
+div#copy_to {
+    margin: 0 auto;
+    padding-top: 25px
+}
+
+.copy {
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    margin: 0 auto;
+    height: 31px;
+    line-height: 31px
+}
+
+.copy2 {
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+    margin: 0 auto;
+    height: 17px;
+    line-height: 17px
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background: #6ac5c9
+}
+
+.line2 {
+    width: 100%;
+    height: 1px;
+    background: #ba8d9f
+}
+
+.line3 {
+    width: 100%;
+    height: 1px;
+    background: #bcbcbc
+}
+
+.space1 {
+    width: 100%;
+    height: 5px;
+    background: #ffffff
+}
+
+button{border:0;}
+
+/* etc */
+.divideLine {display:block; height:5px; border:none; background:#f5f5f5; border-top:1px solid #e6e6e6; font-size:0; line-height:0;}
+.divideLine02 {display:block; height:5px; margin:0 -15px; border:none; background:#f5f5f5; border-top:1px solid #e6e6e6; font-size:0; line-height:0;}
+.darkDimmed{position:fixed;top:0;left:0;width:100%;height:100%;z-index:400;background:rgba(0, 0, 0, .4);}
+.hidden{position: absolute;width:1px;height:1px;margin:-1px;overflow: hidden;clip-path: polygon(0 0, 0 0, 0 0);}
