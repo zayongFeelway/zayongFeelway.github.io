@@ -1,7 +1,7 @@
 import { SubHeader } from '../components/SubHeader';
 
 export default { //공통속성
-    title:'서브헤더22',
+    title:'서브헤더',
     argTypes: {
         label: { control: 'text' },
         util: {
@@ -23,12 +23,12 @@ export const 알람버튼 = Template.bind({}); //상황별 다른 속성
 
 export const 판매자전환버튼 = Template.bind({});
 판매자전환버튼.args = {
-    label: 'sdfsfd',
+    label: '판매자전환',
     util: 'salesConversionButton',
 };
 
 export const SNS공유버튼 = Template.bind({});
 SNS공유버튼.args = {
-    label: 'sdfsdf',
+    label: 'SNS공유',
     util: 'snsShareButton',
 };
