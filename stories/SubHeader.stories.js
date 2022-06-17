@@ -25,6 +25,7 @@ export const 판매자전환버튼 = Template.bind({});
 판매자전환버튼.args = {
     label: '판매자전환',
     util: 'salesConversionButton',
+    backgroundColor : 'white',
 };
 
 export const SNS공유버튼 = Template.bind({});
