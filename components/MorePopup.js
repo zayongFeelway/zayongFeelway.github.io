@@ -1,18 +1,14 @@
 import { html } from 'lit-html';
+import $ from "jquery";
 
 const newToggle = true;
 export const MorePopup = ({ toggle, eventNew }) => {
 
-    const loading = true;
-
-    
-    let myFunction = () => {
-        const $target = document.querySelector('.moreInfomation')
-        if($target.classList.contains('onSlide')){
-            $target.classList.remove('onSlide');
-            
+    const myFunction = () => {
+        if($('.moreInfomation').hasClass('onSlide')){
+            $('.moreInfomation').removeClass('onSlide')
         }else{
-            $target.classList.add('onSlide');
+            $('.moreInfomation').addClass('onSlide')
         }
     }
     return html`
