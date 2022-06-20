@@ -1,6 +1,7 @@
 import { MorePopup } from '../components/MorePopup';
 
 export default {
+    title: 'POPUP/MorePopup',
     argTypes: {
         toggle: {
             control: { type: 'radio' },

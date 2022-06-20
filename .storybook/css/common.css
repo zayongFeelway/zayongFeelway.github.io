@@ -105,3 +105,10 @@
 .brandRanking_scoll__tabList li:first-child {margin-left: 15px;}
 .brandRanking_scoll__tabList li .button {display: inline-block;height: 32px;padding: 0 10px;border-radius: 16px;box-sizing: border-box;border: 1px solid #d5d5d5;background: #fff;color: #d5d5d5;font-size: 12px;line-height: 32px;}
 .brandRanking_scoll__tabList li.active .button {border-color: #222;color: #222;}
+
+/* 자바스크립트 탭 */
+.tab{display:flex;position:relative;}
+.tab__item .tab__item__cont{display:none;position:absolute;left:0;}
+.tab__item.on .tab__item__cont{display:block;}
+.tab__item.on a {color: red;}
+
