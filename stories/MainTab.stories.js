@@ -12,4 +12,13 @@ export default {
 const Template = (args) => MainTab(args);
 
 export const Basic = Template.bind({});
-Basic.args = {};
+Basic.args = {
+  jqeury: `
+  $('.brandRanking_scoll__tabList li').on({
+    'click':function(){
+      $(this).addClass('active');
+      $(this).siblings().removeClass('active');
+    }
+  })
+      `
+};
