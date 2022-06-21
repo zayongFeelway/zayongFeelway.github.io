@@ -9,6 +9,7 @@ export default { //공통속성
             options: ['alarmButton', 'salesConversionButton', 'snsShareButton'],
         },  
     },
+    
 };
 
 const Template = (args) => SubHeader(args);
@@ -18,7 +19,7 @@ export const 알람버튼 = Template.bind({}); //상황별 다른 속성
     primay:false,
     label:'필웨이알림',
     util: 'alarmButton',
-    backgroundColor : 'white',
+    backgroundColor : 'white'
 };
 
 export const 판매자전환버튼 = Template.bind({});
