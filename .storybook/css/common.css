@@ -118,6 +118,7 @@
 .tab__item.on .tab__item__cont{display:block;}
 .tab__item.on a {color: red;}
 
+<<<<<<< HEAD
 /*검색박스*/
 .classification-brandwrap {margin-top:20px;}
 .classification-search {position:relative;width:175px;height:40px;padding:0 0 0 35px;border:1px solid #222222;-webkit-box-sizing: border-box;box-sizing: border-box;background: url('//icon.feelway.com/recent/pc/contents/plan/bg_search.gif') no-repeat 9px 10px;}
@@ -127,3 +128,8 @@
 .plan-utill-wrap {float:right;margin:20px 0 0;font-size:0;line-height:0;}
 .plan-utill-wrap select {width:280px;height:34px;border:1px solid #222222;margin-left:15px;vertical-align:middle;color:#222222;font-size:15px;line-height:1.2;}
 .plan-utill-wrap img {margin:2px 0 0 7px;vertical-align:middle;}
+=======
+/* [공통] 버튼 */
+.buttonBasic {display:inline-flex; justify-content:center; -webkit-box-sizing:border-box; box-sizing:border-box; text-align:center; vertical-align:middle; flex-wrap:wrap; align-content:space-around; padding: 10px 20px; font-weight:600; cursor:pointer;background-color: #36353D;color:#fff;}
+.buttonBasic.disabled {opacity:.3; cursor:default;}
+>>>>>>> a7461945e4f7d84fcd058e65131d8e5ea0b66793
