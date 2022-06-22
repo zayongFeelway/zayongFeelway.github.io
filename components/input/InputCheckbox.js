@@ -10,9 +10,7 @@ export const InputCheckbox = () => {
                   <span class='meta__date'>2022-06-21</span>
               </span>
               <span class='checkboxLabel__item__description'>
-                  <span class='description__memo'>
-                    text
-                  </span>
+                  <span class='description__memo'>text</span>
               </span>
           </label>
         </li>   
