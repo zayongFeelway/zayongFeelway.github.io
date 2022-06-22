@@ -112,3 +112,6 @@
 .tab__item.on .tab__item__cont{display:block;}
 .tab__item.on a {color: red;}
 
+/* [공통] 버튼 */
+.buttonBasic {display:inline-flex; justify-content:center; -webkit-box-sizing:border-box; box-sizing:border-box; text-align:center; vertical-align:middle; flex-wrap:wrap; align-content:space-around; padding: 10px 20px; font-weight:600; cursor:pointer;background-color: #36353D;color:#fff;}
+.buttonBasic.disabled {opacity:.3; cursor:default;}
