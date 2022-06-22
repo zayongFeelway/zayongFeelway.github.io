@@ -1,4 +1,4 @@
-import { ForeachTab } from '../components/ForeachTab';
+import { ForeachTab } from '../../components/tab/ForeachTab';
 
 export default {
   title: 'TAB/ForeachTab'
@@ -17,6 +17,11 @@ export const 자바스크립트탭 = Template.bind({});
       elm.classList.add('on');
     })
   })
-  
-      `
+`
+,
+  CSS : `.tab{display:flex;position:relative;}
+.tab__item .tab__item__cont{display:none;position:absolute;left:0;}
+.tab__item.on .tab__item__cont{display:block;}
+.tab__item.on a {color: red;}
+  `
 };
