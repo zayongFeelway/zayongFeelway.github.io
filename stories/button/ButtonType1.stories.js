@@ -1,14 +1,14 @@
-import { Button } from '../components/Button';
+import { ButtonType1 } from '../../components/button/ButtonType1';
 
 export default {
-  title: 'Button/Button',
+  title: 'Button/ButtonType1',
   argTypes: {
     label: { control: 'text' },
     backgroundColor: { control: 'color' },
   }
 };
 
-const Template = (args) => Button(args);
+const Template = (args) => ButtonType1(args);
 
 export const 버튼1 = Template.bind({}); //상황별 다른 속성
 버튼1.args = {

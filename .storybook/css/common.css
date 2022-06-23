@@ -123,7 +123,7 @@
 .classification-search {position:relative;width:175px;height:40px;padding:0 0 0 35px;border:1px solid #222222;-webkit-box-sizing: border-box;box-sizing: border-box;background: url('//icon.feelway.com/recent/pc/contents/plan/bg_search.gif') no-repeat 9px 10px;}
 .classification-search:focus {padding:0 0 0 34px;border-width:2px;background: url('//icon.feelway.com/recent/pc/contents/plan/bg_search.gif') no-repeat 8px 9px;}
 
-/*4가지 아이콘*/
+/*아이콘 블랙 검색박스*/
 .plan-utill-wrap {float:right;margin:20px 0 0;font-size:0;line-height:0;}
 .plan-utill-wrap select {width:280px;height:34px;border:1px solid #222222;margin-left:15px;vertical-align:middle;color:#222222;font-size:15px;line-height:1.2;}
 .plan-utill-wrap img {margin:2px 0 0 7px;vertical-align:middle;}
@@ -131,3 +131,55 @@
 /* [공통] 버튼 */
 .buttonBasic {display:inline-flex; justify-content:center; -webkit-box-sizing:border-box; box-sizing:border-box; text-align:center; vertical-align:middle; flex-wrap:wrap; align-content:space-around; padding: 10px 20px; font-weight:600; cursor:pointer;background-color: #36353D;color:#fff;}
 .buttonBasic.disabled {opacity:.3; cursor:default;}
+
+/*메인상단검색박스*/
+.header__skelecton__searchKeyword {position: absolute;top: 30px;right: 0;border: 2px solid #222;margin: 28px 0 0;}
+.header__skelecton__searchKeyword fieldset{padding:0;}
+.header__skelecton__searchKeyword legend {display: none}
+.header__skelecton__searchKeyword .field {position: relative}
+.header__skelecton__searchKeyword .field .select {padding: 0 5px 0 5px;vertical-align: top;height: 38px;border: none;background-color: #fff;font-size: 13px;appearance: none;color: #555}
+.header__skelecton__searchKeyword .field .text {border: 0;vertical-align: top;padding: 0 50px 0 20px;width: 244px;height: 38px;font-size: 14px;line-height: 38px;box-sizing: content-box;}
+.header__skelecton__searchKeyword .field .button {vertical-align: top;border: 0;padding: 0;background: transparent;}
+.header__skelecton__searchKeyword .field .button.button--submit {position: absolute;top: 0;right: 0;height: 38px;width: 50px;background: url("https://www.feelway.com/tobe/resource/image/icon/icon_20by20_zoom.png") no-repeat center;overflow: hidden}
+.header__skelecton__searchKeyword .field .button.button--submit span {color: rgba(0, 0, 0, 0)}
+
+/*아이콘 필폰*/
+.clipTabContent__box__share {position: relative;}
+.clipTabContent__box__share .link {font-size: 12px;color: #999;}
+.clipTabContent__box__share .btnCopy {display: inline-block;height: 32px;margin-left: 33px;padding: 0 20px;border: 1px solid #222;border-radius: 16px;font-size: 12px;color: #222;box-sizing: border-box;line-height: 32px;}
+.clipTabContent__box__share .snsShare {display: inline-block;margin-left: 17px;vertical-align: top;font-size: 0;}
+.clipTabContent__box__share .snsShare li {display: inline-block;margin-left: 20px;}
+.clipTabContent__box__share .snsShare li:first-child {margin-left: 0;}
+.clipTabContent__box__share .snsShare button {width: 32px;height: 32px;border: 1px solid #222;border-radius: 50%;}
+.clipTabContent__box__share .snsShare .btnKakao {background: url("//icon.feelway.com/recent/pc/clipon/ico_kakao.png") no-repeat center;}
+.clipTabContent__box__share .snsShare .btnFacebook {background: url("//icon.feelway.com/recent/pc/clipon/icon_facebook.png") no-repeat center;}
+.clipTabContent__box__share .snsShare .btnTwt {background: url("//icon.feelway.com/recent/pc/clipon/icon_twiter.png") no-repeat center;}
+.clipTabContent__box__share .snsShare .btnNaver {background: url("//icon.feelway.com/recent/pc/clipon/icon_naver.png") no-repeat center;}
+.clipTabContent__box__share .pagination {position: absolute;top: 2px;right: 0;vertical-align: 1px;}
+.clipTabContent__box__share .pagination button {display: inline-block;width: 24px;height: 24px;border: solid 1px #d5d5d5;box-sizing: border-box;}
+.clipTabContent__box__share .pagination .btnPrev {background: url("//icon.feelway.com/recent/pc/clipon/icon_prev.png") no-repeat center;}
+.clipTabContent__box__share .pagination .btnNext {background: url("//icon.feelway.com/recent/pc/clipon/icon_next.png") no-repeat center;}
+.clipTabContent__box__share .pagination .pageNum {display: inline-block;width: auto;margin: 0 10px;font-size: 14px;color: #666666;vertical-align: -5px;}
+.clipTabContent__box__share .pagination .swiper-pagination-current {font-weight: bold;}
+
+/*아이콘 로그인*/
+.jjo-login-sns-wrap{padding:30px 60px;text-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;border-top:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6}
+.jjo-login-sns-wrap button[class^='icon-join-']{display: inline-block;width: 40px;height: 20px;background-size: 40px;min-width: 55px;padding-top: 50px;font-size: 13px;color: #555;background-position: center 0;box-sizing: content-box;max-width: 55px;}
+.icon-join-facebook{background: url(//icon.feelway.com/recent/pc/contents/login/img_snsicon01.gif) no-repeat center/100%;}
+.icon-join-kakao{background: url(//icon.feelway.com/recent/pc/contents/login/img_snsicon02.gif) no-repeat center/100%;}
+.icon-join-naver{background: url(//icon.feelway.com/recent/pc/contents/login/img_snsicon03.gif) no-repeat center/100%;}
+.icon-join-wemakeprice{background: url(//icon.feelway.com/recent/pc/contents/login/img_snsicon04.gif) no-repeat center/100%;}
+.icon-join-apple{background: url(//icon.feelway.com/recent/pc/contents/login/img_snsicon05.gif) no-repeat center/100%;position: relative;}
+.icon-join-apple:after{content: '애플';position: absolute;bottom: 1px;left: 0;right: 0;}
+
+/*버튼 더보기*/
+.classification-morewrap {margin-top:-2px;border-top:1px solid #dddddd;background:#f5f5f5;font-size:0;line-height:0;text-align:center;}
+.classification-more {width:78px;height:31px;border:1px solid #dddddd;border-top:none;-webkit-box-sizing: border-box;box-sizing: border-box;background:#ffffff;color:#555555;font-size:11px;}
+.classification-more .str {display:inline-block;padding-right:16px;background: url('//icon.feelway.com/recent/pc/contents/plan/bg_btnbullet.gif') no-repeat right 6px;}
+.classification-more.show .str {background-image: url('//icon.feelway.com/recent/pc/contents/plan/bg_btnbullet_on.gif')}
+.classification-selectnamewrap {margin-top:21px;font-size:0;line-height:0;}
+.classification-selectnamewrap .tag-select {display:inline-block;height:25px;padding:0 7px 0 12px;border:1px solid #7d7d7d;-webkit-box-sizing: border-box;box-sizing: border-box;border-radius: 16px;color: #555555;font-size: 12px;line-height:25px;vertical-align:middle;}
+.classification-selectnamewrap .tag-select + .tag-select  {margin-left:14px;}
+.classification-selectnamewrap .tag-select .del {display:inline-block;width:16px;height:25px;background: url('//icon.feelway.com/recent/pc/contents/plan/bg_tagclose.gif') no-repeat 50%;font-size:0;line-height:0;vertical-align:top;}
+.classification-selectname-reset {position:relative;margin-left:26px;padding-left:19px;background: url('//icon.feelway.com/recent/pc/contents/plan/bg_reset.gif') no-repeat 0 5px;color:#222222;font-size:13px;vertical-align:middle;}
+.classification-selectname-reset:after {content: " ";position:absolute;top:3px;left:-10px;display: block; width:1px; height:13px;background:#e6e6e6;}
